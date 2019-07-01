@@ -1,3 +1,66 @@
+body {
+    background: #f5eee0 url(http://newline-course-assets.s3.amazonaws.com/images/keytar/pattern.jpg);
+    color: #6f6f6f;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Bungee', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0; 
+}
+h2 {
+    color: #212a2d;
+    font-size: 26px;
+}
+
+h3 {
+    color: #865aa0;
+    font-size: 20px;
+}
+
+h4 {
+    color: #865aa0;
+    font-size: 14px;
+}
+
 p {
-    background-color: red;
+    line-height: 24px;
+    margin: 8px 0;
+}
+
+.header {
+    background: #3f4c50;
+    overflow: auto;
+}
+.header .logo {
+    float: left;
+    padding: 10px 10px;
+}
+.header .navigation {
+    float: left;
+    list-style: none;
+    padding: 0;
+}
+
+.header .navigation li {
+    float: left;
+    padding: 20px;
+}
+.header .navigation li a {
+    color: #f5eee0;
+    font-weight: bold;
+    padding: 4px;
+    text-decoration: none;
+}
+
+.header .navigation li a.active,
+.header .navigation li a:hover {
+    border-bottom: 2px solid #ac43ec;
 }
