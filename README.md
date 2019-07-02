@@ -1,1 +1,1 @@
-# Main landing page for bjjreviews ossss
+# Main landing page for bjjreviews
