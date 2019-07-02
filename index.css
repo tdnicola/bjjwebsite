@@ -90,7 +90,7 @@ p {
 
 /* HERO INFORMATION */
 .hero {
-    background: url('./heroBackground.jpeg');
+    background: url('./Pics/heroBackground.jpeg');
     padding: 30px;
     color: #f5eee0;
 }
@@ -192,4 +192,35 @@ p {
     display: block;
     margin: -70px auto 20px;
     padding: 4px;
+}
+
+/* ARCHIVE  */
+
+.archive {
+    background: #212a2d;
+    margin: 80px 0 0 0;
+    overflow: auto;
+}
+.archive .article {
+    float: left;
+    width: 33.33%;
+}
+.archive h1 {
+    background: #ffffff;
+    color: #ac43ec;
+    padding: 20px;
+    text-align: center;
+}
+
+.archive .article h2 {
+    color: #ffffff; 
+}
+
+.archive .article:hover img {
+    opacity: 0.6;
+}
+
+.archive .article img {
+    opacity: .4;
+    width: 100%;
 }
