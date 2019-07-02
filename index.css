@@ -13,7 +13,7 @@ h1, h2, h3, h4 {
 
 h1 {
     font-size: 36px;
-    margin: 0; 
+    margin: 5px; 
 }
 h2 {
     color: #212a2d;
@@ -33,6 +33,25 @@ h4 {
 p {
     line-height: 24px;
     margin: 8px 0;
+}
+
+.container {
+    margin: auto;
+    overflow: auto;
+    width: 900px;
+}
+.button {
+    background:#ac43ec;
+    border-radius: 4px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 10px 0;
+    padding: 8px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .header {
@@ -63,4 +82,26 @@ p {
 .header .navigation li a.active,
 .header .navigation li a:hover {
     border-bottom: 2px solid #ac43ec;
+}
+
+.hero {
+    background: url('./heroBackground.jpeg');
+    padding: 30px;
+    color: #f5eee0;
+}
+
+.hero h1 {
+    border-left: 5px solid #ac43ec;
+    background-color: #2a3336;
+    border-radius: 0 4px 4px 0;
+    color: #ffffff;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 14px 25px;
+}
+
+.hero p {
+    font-size: 16px;
+    line-height: 28px;
+    max-width: 700px;
 }
